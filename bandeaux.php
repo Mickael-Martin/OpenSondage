@@ -72,7 +72,7 @@ function gAnalytics() {
 //le logo
 function logo ()
 {
-  if(defined('LOGOBANDEAU')) {
+  if(LOGOBANDEAU) {
     echo '<div class="logo"><img src="'.get_server_name().LOGOBANDEAU.'" height="74" alt="logo"></div>'."\n";
   }
 }
