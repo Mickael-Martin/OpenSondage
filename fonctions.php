@@ -247,7 +247,7 @@ function getUrlSondage($id, $admin = false)
   return $url;
 }
 
-function remove_sondage( $numsondage ){
+function remove_sondage( $connect, $numsondage ){
 
   $connect->StartTrans();
 
